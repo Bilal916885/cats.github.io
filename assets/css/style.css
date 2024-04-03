@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+body{
+    background:#ccdd51;
+    overflow-x: hidden;
+    height: 100%; 
+    
+}
+/* -------- */
+.main-bg{
+    background-image: url(../images/bgg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    height: 100dvh;
+    /* background-attachment: fixed; */
+
+
+}
+.icns{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: end;
+    gap: 1vw; 
+    transform: translateX(-9vw);
+}
+.icns .fst img{
+    width: 19vw;
+    transform: translateX(3vw);
+    transition: .5s;
+
+    
+}
+.icns .fst img{
+    width: 4.7vw;
+    transition: .3s;
+
+    
+}
+.c1{
+    position: absolute;
+    width: 10.5vw;
+    left: 1%;
+    top: 75%;
+}
+.c2{
+    position: absolute;
+    width: 5vw;
+    left: 16%;
+    top: 58%;
+}
+.c3{
+    position: absolute;
+    width: 8vw;
+    left: 15%;
+    top: 100%;
+}
+.c4{
+    position: absolute;
+    width: 6.8vw;
+    right: 4%;
+    top: 23%;
+}
+.c5{
+    position: absolute;
+    width: 8vw;
+    top: 100%;
+    left: 35%;
+}
+.c6{
+    position: absolute;
+    width: 6vw;
+   left: 18%;
+   top: 20%;
+}
+.c7{
+    position: absolute;
+    width: 7vw;
+    top: 93%;
+    right: 2%;
+}
+.c8{
+    position: absolute;
+    width: 6vw;
+    right: 4%;
+    top: 60%;
+}
+.c9{
+    position: absolute;
+    width: 8vw;
+    left: 1%;
+    top: 30%;
+}
+.c10{
+    position: absolute;
+    width: 9vw;
+    right: 16%;
+    top: 100%;
+}
+.c11{
+    position: absolute;
+    width: 8.8vw;
+    left: 73%;
+    top: 28%;
+    z-index: 2;
+}
+.c12{
+    position: absolute;
+    width: 5%;
+    top: 80%;
+    right: 18%;
+}
+.text-cntr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0vw;
+    position: relative;
+}
+.upr img{
+    width: 40vw;
+    transform: translateY(4vw);
+}
+.low img{
+    width: 47vw;
+}
+.btn img {
+    width: 15vw;
+    margin-top: 5vw;
+}
+/* ---------end-sec---- */
+.end-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 27vw;
+    margin-top: 2vh; 
+
+}
+.end-sec .left img{
+    width: 28vw;
+}
+.end-sec .right img{
+    width: 28vw;
+}
+.end{
+    position: relative;
+}
+.c5{
+    position: absolute;
+    width: 8vw;
+    left: 33%;
+    top: -10%;
+}
